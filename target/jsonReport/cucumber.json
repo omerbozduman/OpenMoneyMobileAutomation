@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-19T13:27:05.979Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2508263000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.openmoney.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "verify photos app",
+        "description": "",
+        "id": "photos-app;verify-photos-app",
+        "after": [
+          {
+            "result": {
+              "duration": 24519000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.openmoney.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 402963000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the \"Settings\" app",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Settings\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.openmoney.step_definitions.KeyboardsStepDefs.iOpenTheApp(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1310428000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click the \"General\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"General\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.openmoney.step_definitions.KeyboardsStepDefs.iClickTheButton(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1293412000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the \"Keyboard\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Keyboard\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.openmoney.step_definitions.KeyboardsStepDefs.iClickTheButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 666978000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify \"Keyboards\" is displayed on the bottom",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Keyboards\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.openmoney.step_definitions.KeyboardsStepDefs.iVerifyIsDisplayedOnTheBottom(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@keyboards"
+          }
+        ]
+      }
+    ],
+    "name": "Photos App",
+    "description": "",
+    "id": "photos-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/IOS/Keyboards.feature",
+    "tags": [
+      {
+        "name": "@keyboards",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
